@@ -1,6 +1,6 @@
 <p>Listado de heroes</p>
 <ul>
-  <!-- <li *ngFor="let item of heroes">{{item}}</li> -->
+  <li *ngFor="let item of heroes">{{item}}</li>
   <li *ngIf="existo; else noExisto">"Existo"</li>
 
   <ng-template #noExisto>

@@ -6,8 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./listado.component.css'],
 })
 export class ListadoComponent {
-  public existo = false;
-  public contador = 0;
+  public existo: boolean = false;
+  public contador: number = 0;
+  public heroes:string[] = ["1", "2", "3"];
 
   changeExist() {
     this.contador += 1;
